@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Southern Spur Aesthetics — Mobile Botox, Fillers, IV Therapy & GLP-1 Weight Loss</title>
+  <meta name="description" content="Concierge mobile med spa. Botox, dermal fillers, IV hydration, medical-grade skin care and GLP-1 weight loss — delivered to your home, office or hotel by licensed nurse injectors.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-badge" viewBox="0 0 24 24"><path d="M12 2l2.4 1.8 3-.2.9 2.9 2.5 1.7-1 2.8 1 2.8-2.5 1.7-.9 2.9-3-.2L12 22l-2.4-1.8-3 .2-.9-2.9-2.5-1.7 1-2.8-1-2.8 2.5-1.7.9-2.9 3 .2z M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <symbol id="i-nurse" viewBox="0 0 24 24"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zM4 21c0-4 3.600-6.500 8-6.500s8 2.500 8 6.500M12 16.500v3M10.500 18h3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 9.500V20h14V9.500M10 20v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 12.500l2.700 2.700L16 9.800" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 21c0-4.400 3.600-7 8-7s8 2.600 8 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<div class="preview-bar">Preview site. Online booking and payments are not live yet. Do not enter real card details.</div>
+
+<!-- ============ ANNOUNCEMENT ============ -->
+<div class="announce">
+  New clients save $50 on their first visit with code GLOW50. <a href="#" data-book>Book now</a>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a href="#top" class="logo">southern spur</a>
+    <nav class="nav" id="nav">
+      <a href="#treatments" data-tab="injectables">Injectables</a>
+      <a href="#treatments" data-tab="iv">IV Therapy</a>
+      <a href="#treatments" data-tab="skin">Skin</a>
+      <a href="#weight-loss">Weight Loss</a>
+      <a href="#events">Parties & Events</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header__right">
+      <button class="icon-btn" data-open="appointments" aria-label="My appointments"><svg><use href="#i-user"/></svg></button>
+      <button class="pill pill--dark pill--sm header__book" data-book>Book</button>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__top">
+      <h1>Look and feel your best, at home</h1>
+      <ul class="trustlist">
+        <li><svg><use href="#i-badge"/></svg>Licensed nurses and nurse practitioners</li>
+        <li><svg><use href="#i-nurse"/></svg>Medical director oversight on every visit</li>
+        <li><svg><use href="#i-home"/></svg>We come to your home, office or hotel</li>
+        <li><svg><use href="#i-check"/></svg>Book online in under two minutes</li>
+      </ul>
+    </div>
+
+    <div class="feature-cards">
+      <a href="#qualify" class="feature feature--slate">
+        <h2>See if you qualify for GLP-1 weight loss</h2>
+        <img class="feature__img" src="images/hero-glp.jpg" alt="Woman using a weight loss injection pen at home">
+        <span class="pill pill--dark feature__cta">Start now <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a href="#" class="feature feature--sand" data-book="botox">
+        <h2>Botox, fillers and IV therapy, delivered to your door</h2>
+        <img class="feature__img" src="images/hero-aesthetics.jpg" alt="Nurse injector performing a cosmetic injection">
+        <span class="feature__chip">Next available<strong id="nextAvail">Today</strong></span>
+        <span class="pill pill--light feature__cta">Book a visit <svg><use href="#i-arrow"/></svg></span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ BANNER ============ -->
+<section class="banner">
+  <img class="banner__img" src="images/banner.jpg" alt="" aria-hidden="true">
+  <div class="container banner__inner">
+    <div>
+      <h2>Lose weight and keep it off with physician-supervised GLP-1s</h2>
+      <a href="#weight-loss" class="pill pill--light">Start losing weight <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="glass" aria-hidden="true">
+      <span class="glass__label">Monthly check-ins</span>
+      <span class="glass__value">At home or by video</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GLP-1 PROGRAMS ============ -->
+<section class="section" id="weight-loss">
+  <div class="container">
+    <div class="section__row">
+      <h2 class="h2">Weight loss programs</h2>
+      <div class="carousel-nav" data-carousel="glpTrack">
+        <button class="round" data-dir="-1" aria-label="Previous"><svg><use href="#i-prev"/></svg></button>
+        <button class="round" data-dir="1" aria-label="Next"><svg><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+    <div class="track" id="glpTrack"></div>
+    <p class="safety" id="safety">
+      <strong>Safety info:</strong> GLP-1 medications may cause serious side effects, including possible thyroid tumors. Do not use if you or your family have a history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2), or if you are pregnant or have had pancreatitis. Prescription medications require a medical evaluation, and not everyone qualifies. Compounded medications are not FDA-approved. Results vary. Pricing shown is a starting rate and may change with dose.
+    </p>
+  </div>
+</section>
+
+<!-- ============ ELIGIBILITY ============ -->
+<section class="section section--soft" id="qualify">
+  <div class="container split">
+    <div>
+      <h2 class="h2">Am I a candidate for GLP-1s?</h2>
+      <p class="lead">Answer a few questions to see if you may qualify. A licensed provider makes the final decision during your medical evaluation.</p>
+      <ul class="ticks">
+        <li>Medical evaluation and lab review by a licensed provider</li>
+        <li>Medication, supplies and a dosing schedule included</li>
+        <li>Monthly check-ins at home or by video</li>
+        <li>Evaluation fee credited toward your first month</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <form id="bmiForm">
+        <div class="grid2">
+          <label>Height (ft)<input type="number" id="hFt" min="4" max="7" value="5" required></label>
+          <label>Height (in)<input type="number" id="hIn" min="0" max="11" value="6" required></label>
+        </div>
+        <label>Weight (lbs)<input type="number" id="wLbs" min="80" max="700" placeholder="e.g. 190" required></label>
+        <fieldset>
+          <legend>Do any of these apply to you?</legend>
+          <label class="check"><input type="checkbox" name="cond" value="comorbid"> High blood pressure, prediabetes, high cholesterol or sleep apnea</label>
+          <label class="check"><input type="checkbox" name="cond" value="exclude"> Personal or family history of medullary thyroid cancer or MEN 2</label>
+          <label class="check"><input type="checkbox" name="cond" value="exclude"> Pregnant, breastfeeding or planning pregnancy</label>
+          <label class="check"><input type="checkbox" name="cond" value="exclude"> History of pancreatitis</label>
+        </fieldset>
+        <button class="pill pill--dark pill--block" type="submit">Check eligibility</button>
+      </form>
+      <div class="quiz__result" id="bmiResult" hidden></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TREATMENTS ============ -->
+<section class="section" id="treatments">
+  <div class="container">
+    <div class="section__row">
+      <h2 class="h2">Treatments</h2>
+      <div class="carousel-nav" data-carousel="servicesGrid">
+        <button class="round" data-dir="-1" aria-label="Previous"><svg><use href="#i-prev"/></svg></button>
+        <button class="round" data-dir="1" aria-label="Next"><svg><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+    <div class="tabs" role="tablist" id="serviceTabs"></div>
+    <div class="track" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ============ GOALS ============ -->
+<section class="goals">
+  <div class="goals__bg">
+    <img class="goals__img" src="images/goals.jpg" alt="" aria-hidden="true">
+    <div class="container"><h2>Treatments for your goals</h2></div>
+  </div>
+  <div class="container goals__grid">
+    <a href="#" class="goal" data-book="botox"><img class="goal__art" src="images/goal-1.jpg" alt=""><span class="goal__label">Smooth fine lines</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+    <a href="#" class="goal" data-book="lipfiller"><img class="goal__art" src="images/goal-2.jpg" alt=""><span class="goal__label">Restore volume</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+    <a href="#" class="goal" data-book="iv-recovery"><img class="goal__art" src="images/goal-3.jpg" alt=""><span class="goal__label">Rehydrate and recover</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+    <a href="#" class="goal" data-book="facial"><img class="goal__art" src="images/goal-4.jpg" alt=""><span class="goal__label">Improve skin</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+    <a href="#qualify" class="goal"><img class="goal__art" src="images/goal-5.jpg" alt=""><span class="goal__label">Lose weight</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+    <a href="#events" class="goal"><img class="goal__art" src="images/goal-6.jpg" alt=""><span class="goal__label">Host a party</span><span class="round round--dark"><svg><use href="#i-arrow"/></svg></span></a>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section" id="how">
+  <div class="container">
+    <h2 class="h2">How it works</h2>
+    <ol class="steps">
+      <li><span class="steps__num">1</span><h3>Book online</h3><p>Choose your treatments, address and a time that works, seven days a week.</p></li>
+      <li><span class="steps__num">2</span><h3>Complete intake</h3><p>Fill out a short medical history and consent form so your provider is prepared on arrival.</p></li>
+      <li><span class="steps__num">3</span><h3>We come to you</h3><p>Your licensed nurse brings sterile supplies, lighting, IV equipment and a treatment chair.</p></li>
+      <li><span class="steps__num">4</span><h3>Follow-up care</h3><p>Receive aftercare instructions and a two-week check-in from your provider.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ EVENTS ============ -->
+<section class="section section--soft" id="events">
+  <div class="container split">
+    <div>
+      <img class="split__img" src="images/events.jpg" alt="Bridal party in matching robes" loading="lazy">
+      <h2 class="h2">Parties and events</h2>
+      <p class="lead">Host four or more guests and the host's treatment is complimentary up to $300. We bring a full team, set up a private treatment area and handle each guest's intake digitally.</p>
+      <ul class="ticks">
+        <li>Bridal parties and bachelorettes</li>
+        <li>Recovery IVs for weddings and festivals</li>
+        <li>Corporate wellness days and conferences</li>
+        <li>Hotel and vacation rental group bookings</li>
+      </ul>
+    </div>
+    <form class="panel" id="eventForm">
+      <h3>Request a quote</h3>
+      <div class="grid2">
+        <label>Your name<input name="name" required></label>
+        <label>Phone<input name="phone" type="tel" required></label>
+      </div>
+      <label>Email<input name="email" type="email" required></label>
+      <div class="grid2">
+        <label>Event date<input name="date" type="date" required></label>
+        <label>Guests<input name="guests" type="number" min="4" value="6" required></label>
+      </div>
+      <label>Event type
+        <select name="type">
+          <option>Botox and filler party</option>
+          <option>IV hydration party</option>
+          <option>Bridal or bachelorette</option>
+          <option>Corporate wellness</option>
+          <option>Mixed services</option>
+        </select>
+      </label>
+      <label>Details<textarea name="notes" rows="3" placeholder="Location and services you are interested in"></textarea></label>
+      <button class="pill pill--dark pill--block">Request quote</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section">
+  <div class="container">
+    <h2 class="h2">What our clients say</h2>
+    <p style="color: var(--muted); margin: -8px 0 24px; font-size: .9rem;">Sample reviews for preview. Replace with real client reviews before launch.</p>
+    <div class="reviews">
+      <figure class="review"><blockquote>"Botox on my lunch break without leaving the office. My nurse was gentle and the results look completely natural."</blockquote><figcaption>Danielle R. <span>Botox</span></figcaption></figure>
+      <figure class="review"><blockquote>"We booked recovery IVs for eight bridesmaids at our rental. Everyone felt great for the wedding."</blockquote><figcaption>Marisa T. <span>IV Event</span></figcaption></figure>
+      <figure class="review"><blockquote>"The monthly home check-ins keep me accountable, and the team has been incredibly supportive throughout my program."</blockquote><figcaption>Kevin L. <span>GLP-1 Program</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section--soft" id="faq">
+  <div class="container split split--faq">
+    <h2 class="h2">Frequently asked questions</h2>
+    <div class="faq" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container split">
+    <div>
+      <h2 class="h2">Contact us</h2>
+      <p class="lead">Call or text 8am to 5pm, seven days a week.</p>
+      <dl class="contact">
+        <div><dt>Phone and text</dt><dd><a href="tel:+15555550123">(555) 555-0123</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:hello@southernspuraesthetics.com">hello@southernspuraesthetics.com</a></dd></div>
+        <div><dt>Hours</dt><dd>Every day, 8am to 5pm</dd></div>
+        <div><dt>Service area</dt><dd>Greater metro area plus 30 miles. Travel beyond is available for groups.</dd></div>
+      </dl>
+    </div>
+    <form class="panel" id="contactForm">
+      <div class="grid2">
+        <label>Name<input name="name" required></label>
+        <label>Phone<input name="phone" type="tel"></label>
+      </div>
+      <label>Email<input name="email" type="email" required></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <button class="pill pill--dark pill--block">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#top" class="logo">southern spur</a>
+      <p>Concierge aesthetics and wellness, delivered.</p>
+      <form class="newsletter" id="newsletter">
+        <input type="email" placeholder="Email address" required aria-label="Email address">
+        <button class="pill pill--dark">Subscribe</button>
+      </form>
+    </div>
+    <div>
+      <h5>Treatments</h5>
+      <a href="#treatments" data-tab="injectables">Injectables</a>
+      <a href="#treatments" data-tab="iv">IV Therapy</a>
+      <a href="#treatments" data-tab="skin">Skin Care</a>
+      <a href="#weight-loss">Weight Loss</a>
+    </div>
+    <div>
+      <h5>Clients</h5>
+      <a href="#" data-book>Book an appointment</a>
+      <a href="#" data-open="appointments">Manage appointments</a>
+      <a href="#" data-open="gift">Gift cards</a>
+      <a href="#events">Parties and events</a>
+    </div>
+    <div>
+      <h5>Company</h5>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#safety">Safety information</a>
+    </div>
+  </div>
+  <div class="container footer__legal">
+    <p>© <span id="year"></span> Southern Spur Aesthetics. All treatments are performed by licensed medical professionals under the supervision of a medical director. Results vary. Information on this site is not medical advice.</p>
+  </div>
+</footer>
+
+<button class="mobile-cta pill pill--dark" data-book>Book an appointment</button>
+
+<!-- ============ BOOKING MODAL ============ -->
+<div class="modal" id="bookingModal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel modal__panel--wide" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+    <button class="modal__close" data-close aria-label="Close">×</button>
+    <div class="wizard">
+      <ol class="progress" id="progress">
+        <li class="active">Treatments</li>
+        <li>Location</li>
+        <li>Date & Time</li>
+        <li>Your Info</li>
+        <li>Confirm</li>
+      </ol>
+      <h3 id="bookTitle" class="sr-only">Book an appointment</h3>
+
+      <div class="wizard__body">
+        <section class="step active" data-step="0">
+          <h3>Choose your treatments</h3>
+          <p class="muted">Select one or more. Not sure where to start? Choose a complimentary consultation.</p>
+          <div class="tabs tabs--small" id="bookTabs"></div>
+          <div class="pick" id="pickList"></div>
+        </section>
+
+        <section class="step" data-step="1">
+          <h3>Where should we meet you?</h3>
+          <div class="loc-types" id="locTypes">
+            <label><input type="radio" name="locType" value="Home" checked><span>Home</span></label>
+            <label><input type="radio" name="locType" value="Office"><span>Office</span></label>
+            <label><input type="radio" name="locType" value="Hotel / Rental"><span>Hotel / Rental</span></label>
+            <label><input type="radio" name="locType" value="Event"><span>Event</span></label>
+          </div>
+          <label>Street address<input id="bAddress" autocomplete="street-address" placeholder="123 Main St, Apt 4"></label>
+          <div class="grid3">
+            <label>City<input id="bCity" autocomplete="address-level2"></label>
+            <label>State<input id="bState" maxlength="2" autocomplete="address-level1"></label>
+            <label>ZIP<input id="bZip" inputmode="numeric" maxlength="5" autocomplete="postal-code"></label>
+          </div>
+          <label>Number of guests receiving treatment<input id="bGuests" type="number" min="1" max="20" value="1"></label>
+          <label>Access notes (gate code, parking, etc.)<input id="bAccess" placeholder="Optional"></label>
+          <p class="field-msg" id="locMsg"></p>
+        </section>
+
+        <section class="step" data-step="2">
+          <h3>Pick a date and time</h3>
+          <div class="schedule">
+            <div class="cal">
+              <div class="cal__head">
+                <button type="button" id="calPrev" aria-label="Previous month">‹</button>
+                <strong id="calTitle"></strong>
+                <button type="button" id="calNext" aria-label="Next month">›</button>
+              </div>
+              <div class="cal__dow"><span>Su</span><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span></div>
+              <div class="cal__grid" id="calGrid"></div>
+            </div>
+            <div class="slots">
+              <p class="slots__date" id="slotsDate">Select a date</p>
+              <div class="slots__grid" id="slotsGrid"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="step" data-step="3">
+          <h3>Tell us about you</h3>
+          <div class="grid2">
+            <label>First name<input id="fName" autocomplete="given-name"></label>
+            <label>Last name<input id="lName" autocomplete="family-name"></label>
+          </div>
+          <div class="grid2">
+            <label>Email<input id="email" type="email" autocomplete="email"></label>
+            <label>Mobile phone<input id="phone" type="tel" autocomplete="tel"></label>
+          </div>
+          <div class="grid2">
+            <label>Date of birth<input id="dob" type="date"></label>
+            <label>Have you had this treatment before?
+              <select id="prior"><option>No, first time</option><option>Yes</option></select>
+            </label>
+          </div>
+          <label>Allergies, medications or goals<textarea id="notes" rows="3" placeholder="Optional, helps your provider prepare"></textarea></label>
+          <label>Promo code<input id="promo" placeholder="e.g. GLOW50"></label>
+          <label class="check"><input type="checkbox" id="consent"> I confirm I am 18 or older and agree to complete the medical intake and consent forms before my visit. I understand a $50 deposit is applied to my treatment and is refundable with at least 24 hours' notice.</label>
+          <label class="check"><input type="checkbox" id="smsOpt" checked> Send me appointment reminders by text</label>
+          <p class="field-msg" id="infoMsg"></p>
+        </section>
+
+        <section class="step" data-step="4">
+          <h3>Review and confirm</h3>
+          <div class="summary" id="summary"></div>
+          <div class="paybox">
+            <h4>Deposit</h4>
+            <p class="muted">A $50 deposit holds your appointment. <strong>Preview mode: no card is charged and nothing is sent. Use test card 4242 4242 4242 4242.</strong></p>
+            <div class="grid2">
+              <label>Card number<input id="card" inputmode="numeric" placeholder="4242 4242 4242 4242" maxlength="19"></label>
+              <div class="grid2">
+                <label>Exp<input id="exp" placeholder="MM/YY" maxlength="5"></label>
+                <label>CVC<input id="cvc" inputmode="numeric" maxlength="4" placeholder="123"></label>
+              </div>
+            </div>
+          </div>
+          <p class="field-msg" id="payMsg"></p>
+        </section>
+
+        <section class="step" data-step="5">
+          <div class="done">
+            <div class="done__icon"><svg><use href="#i-check"/></svg></div>
+            <h3>Your appointment is confirmed</h3>
+            <p>Confirmation <strong id="confCode"></strong> was sent to <strong id="confEmail"></strong>.</p>
+            <div class="summary" id="confSummary"></div>
+            <p class="muted">Next step: complete your medical intake form (link sent by email and text). Your nurse will text you when they are on the way.</p>
+            <div class="done__actions">
+              <button class="pill pill--outline" id="icsBtn">Add to calendar</button>
+              <button class="pill pill--outline" data-open="appointments">View my appointments</button>
+              <button class="pill pill--dark" data-close>Done</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="wizard__foot" id="wizFoot">
+        <div class="cart">
+          <span id="cartCount">0 treatments</span>
+          <strong id="cartTotal">$0</strong>
+        </div>
+        <div class="wizard__btns">
+          <button class="pill pill--outline" id="backBtn">Back</button>
+          <button class="pill pill--dark" id="nextBtn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ DETAILS MODAL ============ -->
+<div class="modal" id="detailModal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Treatment details">
+    <button class="modal__close" data-close aria-label="Close">×</button>
+    <div id="detailBody"></div>
+  </div>
+</div>
+
+<!-- ============ APPOINTMENTS MODAL ============ -->
+<div class="modal" id="appointmentsModal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="apptTitle">
+    <button class="modal__close" data-close aria-label="Close">×</button>
+    <h3 id="apptTitle">My appointments</h3>
+    <form class="zipbar__row" id="lookupForm">
+      <input type="email" id="lookupEmail" placeholder="Email used to book" required>
+      <button class="pill pill--dark">Find</button>
+    </form>
+    <div id="apptList" class="appts"></div>
+  </div>
+</div>
+
+<!-- ============ GIFT CARD MODAL ============ -->
+<div class="modal" id="giftModal" aria-hidden="true">
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="giftTitle">
+    <button class="modal__close" data-close aria-label="Close">×</button>
+    <h3 id="giftTitle">Send a gift card</h3>
+    <form id="giftForm">
+      <div class="amounts">
+        <label><input type="radio" name="amt" value="100"><span>$100</span></label>
+        <label><input type="radio" name="amt" value="250" checked><span>$250</span></label>
+        <label><input type="radio" name="amt" value="500"><span>$500</span></label>
+        <label><input type="radio" name="amt" value="1000"><span>$1,000</span></label>
+      </div>
+      <label>Recipient name<input name="to" required></label>
+      <label>Recipient email<input name="toEmail" type="email" required></label>
+      <label>Your name<input name="from" required></label>
+      <label>Message<textarea name="msg" rows="2"></textarea></label>
+      <button class="pill pill--dark pill--block">Purchase gift card</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
